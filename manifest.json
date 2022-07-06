@@ -16,6 +16,7 @@
         "default_popup":"popup.html"
     },
     "background":{
+<<<<<<< HEAD
         "scripts": ["background.js"],
         "persistent":true
     },
@@ -26,5 +27,11 @@
         "webRequestBlocking",
         "activeTab",
         "<all_urls>"
+=======
+        "scripts": ["background.js"]
+    },
+    "permissions":[
+        "webRequest"
+>>>>>>> ffb10afa1501a3540303f9e0c60be53d855602f1
     ]
 }
