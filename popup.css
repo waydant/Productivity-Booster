@@ -1,0 +1,55 @@
+*{
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* animation: linear infinite; */
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 400px;
+    display: column flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    /* fle */
+}
+
+#set_a_timer{
+    border-radius: 9px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    /* border: 2px solid red; */
+    flex: auto;
+    /* margin: 10px; */
+    /* background: none; */
+} 
+
+/* .setTheTimer{
+    /* background-color: black; */
+    /* margin: 5%; */
+    /* margin: auto; */
+
+.timer{
+    display:column flex;
+    justify-content: center;
+}
+
+.words1{
+    /* block-size: 2em; */
+    /* margin: 5%; */
+    
+    /* background-color: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+     */
+    background-color: black;
+    /* padding: 5px; */
+    /* margin-left: 80px; */
+    /* margin-right: 80px; */
+}
+
+.words{
+    width: 200px;
+    border: 2px solid black;
+}

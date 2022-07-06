@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(68 255 255 / 91%);
+    /* padding: auto; */
+    padding: 5px;
+    background-image: url('alarm1.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    /* background-position: 0% 10%;  */
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("stop3.jpg");
+    background-size:     cover;     
+}
+
+.maindiv{
+    display: column flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    /* width: 100px; */
+}

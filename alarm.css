@@ -1,0 +1,59 @@
+body{
+    /* display: column flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    background-color: rgb(68 255 255 / 91%);
+    /* padding: auto; */
+    padding: 5px;
+    background-image: url('alarm1.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    /* background-position: 0% 10%;  */
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("alarm1.jpg");
+}
+
+.heading2{
+    font-size: 3rem;
+    /* border: 2px solid blue; */
+    /* display: inline-block; */
+    margin: auto;
+    text-align: center;
+}
+
+.heading3{
+    font-size: 1.5rem;
+    /* border: 2px solid blue; */
+    /* display: inline-block; */
+    margin: auto;
+    text-align: center;
+}
+
+.fulldiv{
+    /* border: 2px solid red; */
+    display: column flex;
+    justify-content: center;
+}
+
+.centeredButton{
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
+.button{
+    border: 4px solid rgb(0 63 126);
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+
+.innerdiv{
+    display: column flex;
+    border: 6px solid rgb(0 63 126);
+    border-radius: 49px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}

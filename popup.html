@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="popup.js"></script> -->
+    <link rel="stylesheet" href="popup.css">
+    <!-- <style>
+        *{
+            background-color: greenyellow;
+            color: blanchedalmond;
+        }
+        p{
+            border: cadetblue;
+        }
+    </style> -->
+</head>
+<body>
+    <div id="timerbox">
+        Time since browser is on
+        <p id="time_counter">00:00:00</p>
+    </div>
+    <p id="set_a_timer">
+        Set a timer
+    </p>
+    <div class="setTheTimer">
+        <div class="timer">
+            Hour: &nbsp&nbsp&nbsp&nbsp&nbsp<input class="words" type="number"  id="hr" placeholder="00"> <br>
+            Minutes:&nbsp<input class="words" type="number"  id="min" placeholder="00"> <br>
+            Seconds:&nbsp<input class="words" type="number"  id="sec" placeholder="00"> <br>
+        </div>
+        <br>
+        <button class="words" id="timer_button">Set the timer</button><hr>
+        <br>
+        <form action="alarm.html" target="_blank">
+            <button class="words" id="alarm" type="submit" >Click to Set Alarm</button>
+        </form><hr><br>
+        <form action="blackurl.html" target="_blank">
+            <button class="words" id="blackurl" type="submit" >Edit your Blacklisted url</button>
+        </form><hr><br>
+        <form action="todo.html" target="_blank">
+            <button class="words" id="todo" type="submit" >Edit your ToDo List here</button>
+        </form>
+
+    </div>
+    <script src="popup.js"></script>
+    <!-- <script src="background.js"></script> -->
+</body>
+</html>
