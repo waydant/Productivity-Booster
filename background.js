@@ -11,7 +11,6 @@
 
 //const countdownEl = document.getElementById('time_counter');
 
-<<<<<<< HEAD
 /////////////////////////////////////////////////////////////////
 //                   FOR BLOCKING SITES                         
 /////////////////////////////////////////////////////////////////
@@ -54,8 +53,6 @@ chrome.runtime.onInstalled.addListener(function () {
 /////////////////////////////////////////////////////////////////
 
 
-=======
->>>>>>> ffb10afa1501a3540303f9e0c60be53d855602f1
 var timer_time =0;
 var alarm_hour =0;
 var alarm_minutes =0;

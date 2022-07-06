@@ -1,12 +1,8 @@
-<<<<<<< HEAD
  
-=======
->>>>>>> ffb10afa1501a3540303f9e0c60be53d855602f1
 //selectors
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todolist = document.querySelector('.todo-list');
-<<<<<<< HEAD
 const filterOption = document.querySelector(".filter-todo");
  
 //Event Listener
@@ -166,37 +162,3 @@ function removeLocalTodos(todo){
    todos.splice(todos.indexOf(todoIndex),1);
    localStorage.setItem("todos", JSON.stringify(todos));
 }
-=======
-
-//Event Listener
-todoButton.addEventListener('click', addTodo);
-
-
-//functions
-function addTodo(event){
-    //prevent form from submitting
-    event.preventDefault();
-    //Todo DIV
-    const todoDiv = document.createElement('div');
-    todoDiv.classList.add('todo');
-    //Create LI
-    const newToDo = document.createElement('li');
-    newToDo.innerText = todoInput.value;
-    newToDo.classList.add('todo-item');
-    todoDiv.appendChild(newToDo);
-    //Check MARK BUTTON
-    const completedButton = document.createElement('button');
-    completedButton.innerHTML = '<i class="fas fa-check"></i>';
-    completedButton.classList.add("complete-btn");
-    todoDiv.appendChild(completedButton);
-    //Check TRASH BUTTON
-    const trashButton = document.createElement('button');
-    trashButton.innerHTML = '<i class="fas fa-trash"></i>';
-    trashButton.classList.add("trash-btn");
-    todoDiv.appendChild(trashButton);
-    //APPEND TO LIST
-    todolist.appendChild(todoDiv);
-    //clear  todo INPUT Value
-    todoInput.value ="";
-}
->>>>>>> ffb10afa1501a3540303f9e0c60be53d855602f1
